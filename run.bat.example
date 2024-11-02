@@ -1,0 +1,2 @@
+go build -o surveillance.exe cmd/web/.
+surveillance -dbuser='username' -pusherHost='localhost:4001' -pusherSecret='somesecret' -pusherKey='somekey' -pusherSecure=false pusherApp="1" -db="surveillance"
